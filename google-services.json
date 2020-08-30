@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "10814713682",
+    "firebase_url": "https://hackmty-9df45.firebaseio.com",
+    "project_id": "hackmty-9df45",
+    "storage_bucket": "hackmty-9df45.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10814713682:android:48ce3063cfe65e019e948b",
+        "android_client_info": {
+          "package_name": "com.example.hackmty2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "10814713682-n3ao6u04tt0rdgk5u9o231toh5v0t2a0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hackmty2020",
+            "certificate_hash": "e6d1dbf6d5ccaa96d918ad93b76003a306e3d4b1"
+          }
+        },
+        {
+          "client_id": "10814713682-faj08h8vip35s5elkeql03ulig54g6bi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNnch0WOC7fRTz5C1XiFWL44VYlXrg46c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "10814713682-faj08h8vip35s5elkeql03ulig54g6bi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
