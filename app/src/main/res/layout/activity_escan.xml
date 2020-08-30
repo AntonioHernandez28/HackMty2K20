@@ -9,7 +9,7 @@
 
     <Button
         android:id="@+id/ScanButton"
-        android:layout_width="274dp"
+        android:layout_width="362dp"
         android:layout_height="wrap_content"
         android:background="#FFA614"
         android:text="Escanear"
