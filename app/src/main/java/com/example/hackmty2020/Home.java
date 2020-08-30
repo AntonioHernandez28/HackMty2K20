@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.graphics.Bitmap;
+import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -26,7 +27,7 @@ import com.journeyapps.barcodescanner.BarcodeEncoder;
 
 public class Home extends AppCompatActivity {
 
-    Button GenerateQR, EscanBtn;
+    Button GenerateQR, EscanBtn, ButtonTrack, bot;
     ImageView qrImage;
     String CurrentID;
     String CurrentTipo = "NULL";
@@ -40,12 +41,34 @@ public class Home extends AppCompatActivity {
         GenerateQR = findViewById(R.id.buttonGen);
         qrImage = findViewById(R.id.imagenview);
         EscanBtn = findViewById(R.id.ScanButton);
+        ButtonTrack = findViewById(R.id.trackBtn);
+        bot = findViewById(R.id.botButton);
 
         CurrentID = FirebaseAuth.getInstance().getCurrentUser().getUid();
         GenerateQR.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 setupUserQRcode(FirebaseAuth.getInstance().getCurrentUser().getUid());
+            }
+        });
+
+        bot.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String url = "https://bot.dialogflow.com/1d211aab-2466-4f2a-a36a-f924dd0f1ff4";
+                Intent i = new Intent(Intent.ACTION_VIEW);
+                i.setData(Uri.parse(url));
+                startActivity(i);
+            }
+        });
+
+        ButtonTrack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getBaseContext(), Tracker.class);
+                intent.putExtra("EXTRA_USER_ID", CurrentID);
+
+                startActivity(intent);
             }
         });
 

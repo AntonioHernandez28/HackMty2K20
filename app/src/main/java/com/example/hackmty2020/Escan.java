@@ -1,20 +1,18 @@
 package com.example.hackmty2020;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.google.firebase.firestore.FieldValue;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firestore.v1beta1.DocumentTransform;
 import com.google.zxing.integration.android.IntentIntegrator;
 import com.google.zxing.integration.android.IntentResult;
 
-import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -47,7 +45,7 @@ public class Escan extends AppCompatActivity {
             if(result.getContents() != null){
                 Map<String, Object> check = new HashMap<>();
                 check.put("Departamento", getIntent().getStringExtra("EXTRA_DPT_ID"));
-                check.put("Doctor Encargado", getIntent().getStringExtra("EXTRA_NAME_ID"));
+                check.put("Doctor_Encargado", getIntent().getStringExtra("EXTRA_NAME_ID"));
                 check.put("PacienteID", result.getContents());
                 check.put("timeStmp", FieldValue.serverTimestamp());
 
