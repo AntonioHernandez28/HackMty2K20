@@ -11,7 +11,7 @@
         android:id="@+id/ScanButton"
         android:layout_width="274dp"
         android:layout_height="wrap_content"
-        android:background="#4CAF50"
+        android:background="#FFA614"
         android:text="Escanear"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

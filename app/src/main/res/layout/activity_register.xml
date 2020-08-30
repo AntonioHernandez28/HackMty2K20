@@ -12,7 +12,7 @@
         android:id="@+id/RegisterBtn"
         android:layout_width="274dp"
         android:layout_height="45dp"
-        android:background="#E91E63"
+        android:background="#FF8427"
         android:text="Registrarme"
         android:textColor="#070707"
         app:layout_constraintBottom_toBottomOf="parent"
