@@ -15,6 +15,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "10814713682-73sao6do9jmdeconvnsa3id2vb3o5lf8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hackmty2020",
+            "certificate_hash": "e5e87ec41c4cf3d9bba017fff15c67d07c978d6a"
+          }
+        },
+        {
           "client_id": "10814713682-n3ao6u04tt0rdgk5u9o231toh5v0t2a0.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {

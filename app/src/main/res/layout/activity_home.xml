@@ -8,7 +8,7 @@
     tools:context=".Home">
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/Chatbot_Button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -16,7 +16,7 @@
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:background="#FFC107"
-        android:text="Button"
+        android:text="Chatbot"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -25,7 +25,7 @@
         app:layout_constraintVertical_bias="0.778" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/Info_Button"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
@@ -33,7 +33,7 @@
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
         android:background="#F44336"
-        android:text="Button"
+        android:text="Historial"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
@@ -43,8 +43,9 @@
 
     <Button
         android:id="@+id/buttonGen"
-        android:layout_width="wrap_content"
+        android:layout_width="364dp"
         android:layout_height="wrap_content"
+        android:background="#2196F3"
         android:text="Generar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
