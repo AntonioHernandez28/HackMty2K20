@@ -8,34 +8,41 @@
     tools:context=".Home">
 
     <Button
-        android:id="@+id/ScanButton"
-        android:layout_width="362dp"
+
+        android:id="@+id/botButton"
+        android:layout_width="0dp"
+
         android:layout_height="wrap_content"
         android:layout_marginStart="24dp"
         android:layout_marginLeft="24dp"
         android:layout_marginEnd="24dp"
         android:layout_marginRight="24dp"
-        android:layout_marginBottom="30dp"
-        android:background="#E91E63"
-        android:text="Escanear"
-        app:layout_constraintBottom_toTopOf="@+id/Info_Button"
-        app:layout_constraintEnd_toEndOf="@+id/Info_Button"
-        app:layout_constraintHorizontal_bias="0.541"
-        app:layout_constraintStart_toStartOf="@+id/Info_Button"
+
+        android:background="#FFC107"
+        android:text="Bot"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+
+
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0" />
 
     <Button
-        android:id="@+id/buttonGen"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="364dp"
+
+        android:id="@+id/trackBtn"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="29dp"
-        android:background="#4CAF50"
-        android:ellipsize="none"
-        android:text="Generar"
-        app:layout_constraintBottom_toTopOf="@+id/ScanButton"
-        app:layout_constraintEnd_toEndOf="@+id/ScanButton"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="24dp"
+        android:background="#F44336"
+        android:text="Seguimiento Paciente"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/ScanButton"
         app:layout_constraintTop_toTopOf="parent"
