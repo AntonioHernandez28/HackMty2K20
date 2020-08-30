@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">HackMty 2020</string>
+    <string name="qr" />
+    <string name="historial" />
+    <string name="cartilla_de_vacunaci_n" />
+    <string name="lista_de_espera" />
+    <string name="menu" />
+    <string name="bienvenido" />
+    <string name="paciente" />
+    <string name="personal" />
 </resources>
