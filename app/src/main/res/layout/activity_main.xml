@@ -8,6 +8,19 @@
     tools:context=".MainActivity" >
 
     <Button
+        android:id="@+id/ChtbButton"
+        android:layout_width="274dp"
+        android:layout_height="45dp"
+        android:background="#ffdc00"
+        android:text="Chatea con Gatell"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.481"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/PasswordText"
+        app:layout_constraintVertical_bias="0.564" />
+
+    <Button
         android:id="@+id/RegisterBtn"
         android:layout_width="274dp"
         android:layout_height="45dp"

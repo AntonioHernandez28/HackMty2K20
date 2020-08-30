@@ -20,7 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class MainActivity extends AppCompatActivity {
 
     EditText cUser, cPassword;
-    Button BotonLogin, BotonReg;
+    Button BotonLogin, BotonReg, BotonChtb;
     FirebaseAuth fAuth;
 
     @Override
@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         cPassword = findViewById(R.id.PasswordText);
         BotonLogin = findViewById(R.id.LoginBtn);
         BotonReg = findViewById(R.id.RegisterBtn);
+        BotonChtb = findViewById(R.id.ChtbButton);
 
         fAuth = FirebaseAuth.getInstance();
 
@@ -73,6 +74,13 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 startActivity(new Intent(getApplicationContext(), Register.class));
+            }
+        });
+
+        BotonChtb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(getApplicationContext(), Gatell.class));
             }
         });
 
