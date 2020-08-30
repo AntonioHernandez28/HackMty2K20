@@ -9,8 +9,9 @@
 
     <Button
         android:id="@+id/ScanButton"
-        android:layout_width="wrap_content"
+        android:layout_width="362dp"
         android:layout_height="wrap_content"
+        android:background="#FFA614"
         android:text="Escanear"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
